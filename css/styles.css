@@ -108,7 +108,6 @@ form button:hover {
     width: 100%;
     overflow: hidden;
     height: 90vh;
-    margin-top: 100px; /* Ajusta si tu header es más alto o más bajo */
     z-index: 1;
 }
 
@@ -184,4 +183,20 @@ form button:hover {
     position: relative;
     z-index: 2;
     background-color: #0056b3;
+}
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 0;     /* ✅ Añadir esto */
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    margin-top: 0;        /* ✅ Asegurar esto */
 }
