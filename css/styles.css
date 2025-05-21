@@ -252,3 +252,66 @@ nav a {
 nav a:hover {
     color: #ffe600;
 }
+.encabezado-blanco {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 5px solid #e0e0e0;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 10;
+}
+
+.logo-nombre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo-grande {
+    height: 90px;
+    max-width: 100px;
+}
+
+.titulo-feliz {
+    font-size: 2.8em;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', 'Poppins', cursive, sans-serif;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+}
+
+.menu-colorido ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.menu-colorido a {
+    padding: 10px 18px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+}
+
+.menu-colorido a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Botones por color */
+.btn-azul { background-color: #007bff; }
+.btn-verde { background-color: #28a745; }
+.btn-rosa { background-color: #e83e8c; }
+.btn-naranja { background-color: #fd7e14; }
+.btn-morado { background-color: #6f42c1; }
+.btn-celeste { background-color: #17a2b8; }
