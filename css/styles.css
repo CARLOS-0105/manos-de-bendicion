@@ -103,14 +103,15 @@ form button:hover {
     background-color: #004290;
 }
 
-
-    <style>
         .carousel-container {
-            position: relative;
-            width: 100%;
-            overflow: hidden;
-            height: 90vh;
-        }
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 90vh;
+    margin-top: 100px; /* Ajusta si tu header es más alto o más bajo */
+    z-index: 1;
+}
+
 
         .carousel {
             display: flex;
@@ -125,17 +126,19 @@ form button:hover {
         }
 
         .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* <- Esto es clave */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
 
         .hero-text h1 {
             color: white;
@@ -177,4 +180,8 @@ form button:hover {
             95% {transform: translateX(-300vw);}
             100% {transform: translateX(-400vw);}
         }
-    </style>
+        header {
+    position: relative;
+    z-index: 2;
+    background-color: #0056b3;
+}
