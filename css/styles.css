@@ -404,3 +404,45 @@ nav a:hover {
 .icono-red:hover {
     transform: scale(1.1);
 }
+.terminos-header {
+    background-color: #0056b3;
+    padding: 20px;
+    text-align: center;
+}
+
+.isotipo-terminos {
+    height: 70px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.logo-letras-terminos {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.terminos-contenido {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #333;
+}
+
+.terminos-contenido h2, .terminos-contenido h3 {
+    color: #0056b3;
+}
+
+.terminos-footer {
+    background-color: #003d80;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.95em;
+}
+
+.terminos-footer a {
+    color: white;
+    text-decoration: underline;
+}
