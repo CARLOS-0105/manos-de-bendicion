@@ -262,7 +262,7 @@ form button:hover {
 .iconos-redes {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 5px;
     justify-content: center;
     margin-bottom: 30px;
 }
@@ -320,4 +320,39 @@ form button:hover {
 .terminos-footer a {
     color: white;
     text-decoration: underline;
+}
+main {
+    padding: 30px 20px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px; /* ✅ Añadimos separación desde el header */
+}
+
+.logo-nombre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.logo-letras {
+    height: 60px;
+    max-width: 300px;
+    width: auto;
+}
+
+.isotipo {
+    height: 100px;
+    width: auto;
+}
+
+/* ✅ Aseguramos que el nav esté bien posicionado */
+.menu-colorido ul {
+    padding: 0;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
 }
