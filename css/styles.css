@@ -822,8 +822,8 @@ section p, section li {
     pointer-events: none;
     padding: 30px;
     top: 0; left: 0; right: 0; bottom: 0;
-height: 100vh;
-width: 100vw;
+height: 120vh;
+width: 120vw;
 
 }
 
