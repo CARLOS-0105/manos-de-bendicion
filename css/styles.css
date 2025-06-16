@@ -775,7 +775,7 @@ section p, section li {
     height: 90vh;
     overflow: hidden;
     z-index: 1;
-    margin: 0;        /* Sin margen extra */
+    margin: 0;
     padding: 0;
     background-color: black;
 }
@@ -785,12 +785,16 @@ section p, section li {
     width: 500%;
     height: 100%;
     animation: slide 30s infinite;
+    position: relative;
+    z-index: 1;
 }
 
 .carousel img {
     width: 100vw;
     height: 100%;
     object-fit: cover;
+    position: relative;
+    z-index: 1;
 }
 
 @keyframes slide {
@@ -811,18 +815,20 @@ section p, section li {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.5); /* más opaco para mejor visibilidad */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     z-index: 2;
     padding: 0 20px;
+    pointer-events: none; /* evita que interfiera con botones */
 }
 
 .hero-text {
     color: white;
     z-index: 3;
+    pointer-events: auto; /* permite clics en los botones */
 }
 
 .hero-text h1 {
