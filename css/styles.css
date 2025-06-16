@@ -427,3 +427,178 @@ main {
     border-radius: 12px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
+.galeria-inicio {
+    padding: 50px 20px;
+    background-color: #f2f7fc;
+    text-align: center;
+}
+
+.galeria-inicio h2 {
+    color: #0056b3;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.galeria-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    height: 180px;
+    object-fit: cover;
+}
+
+.galeria-boton .btn-galeria {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.galeria-boton .btn-galeria:hover {
+    background-color: #00408f;
+}
+.testimonios-inicio {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.testimonios-inicio h2 {
+    font-size: 2em;
+    color: #0056b3;
+    margin-bottom: 30px;
+}
+
+.testimonios-contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.testimonios-contenedor blockquote {
+    background-color: #f1f9ff;
+    border-left: 5px solid #00a0e0;
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 1.1em;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    position: relative;
+}
+
+.testimonios-contenedor blockquote footer {
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+    color: #0056b3;
+    text-align: right;
+}
+.como-ayudar {
+    background-color: #eaf4ff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.como-ayudar h2 {
+    font-size: 2em;
+    color: #0056b3;
+    margin-bottom: 40px;
+}
+
+.ayuda-opciones {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.ayuda-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.ayuda-item img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.ayuda-item h3 {
+    font-size: 1.2em;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.ayuda-item p {
+    font-size: 1em;
+    color: #444;
+}
+
+.ayuda-boton .btn-ayudar {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.ayuda-boton .btn-ayudar:hover {
+    background-color: #005dc1;
+}
+.eventos {
+    background-color: #fefefe;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.eventos h2 {
+    color: #0056b3;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.eventos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.evento-item {
+    background-color: #eaf4ff;
+    border-left: 5px solid #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.evento-item h3 {
+    font-size: 1.2em;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.evento-item p {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5;
+}

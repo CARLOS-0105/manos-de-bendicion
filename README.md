@@ -46,4 +46,4 @@ Si deseas contribuir al desarrollo de este sitio, puedes hacerlo mediante pull r
 
 ---
 
-© 2025 Manos de Bendición. Todos los derechos reservados.
+© 2025 Manos de Bendición, IAP. Todos los derechos reservados.
