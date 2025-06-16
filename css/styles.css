@@ -813,7 +813,7 @@ section p, section li {
 .overlay {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -821,7 +821,7 @@ section p, section li {
     text-align: center;
     z-index: 2;
     pointer-events: none;
-    padding: 0 20px;
+    padding: 30px;
 }
 
 
