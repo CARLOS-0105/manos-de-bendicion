@@ -784,7 +784,7 @@ section p, section li {
     display: flex;
     width: 500%;
     height: 100%;
-    animation: slide 30s infinite;
+    animation: slide 35s infinite;
     position: relative;
     z-index: 1;
 }
@@ -822,6 +822,10 @@ section p, section li {
     z-index: 2;
     pointer-events: none;
     padding: 30px;
+    top: 0; left: 0; right: 0; bottom: 0;
+height: 100vh;
+width: 100vw;
+
 }
 
 
