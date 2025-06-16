@@ -813,14 +813,17 @@ section p, section li {
 .overlay {
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     z-index: 2;
     pointer-events: none;
+    padding: 0 20px;
 }
+
 
 .hero-text {
     color: white;
